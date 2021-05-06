@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoReactiveUi.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace DemoReactiveUi
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ColorsDemoPage();
         }
 
         protected override void OnStart()
