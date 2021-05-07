@@ -11,7 +11,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Entry Margin="3" Placeholder="Search" Text="{Binding SearchQuery}"/>
-            <ListView HasUnevenRows="True" ItemsSource="{Binding Contacts}" Margin="2">
+            <Label Text="{Binding SearchResult}" Margin="2"/>
+            <ListView HasUnevenRows="True" ItemsSource="{Binding Contacts}" Margin="2"
+                      SelectionMode="None">
                 <ListView.ItemTemplate> 
                     <DataTemplate>
                         <ViewCell>
