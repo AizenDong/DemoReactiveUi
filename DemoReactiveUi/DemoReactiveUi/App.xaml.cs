@@ -12,7 +12,7 @@ namespace DemoReactiveUi
             InitializeComponent();
 
             new AppBootstrapper();
-            MainPage = new ContactsPage();
+            MainPage = new CommandBindPage();
         }
 
         protected override void OnStart()
