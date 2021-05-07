@@ -11,6 +11,7 @@ namespace DemoReactiveUi
         {
             InitializeComponent();
 
+            new AppBootstrapper();
             MainPage = new ContactsPage();
         }
 
